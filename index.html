@@ -1,0 +1,1119 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/static/CORONA.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        
+Home Page
+
+    </title>
+    <style>
+        .required:after {
+            content: " *";
+            color: red;
+        }
+    </style>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand display-4 " href="/"><img src="/static/CORONA.svg" alt="" width="110"
+                        height="110" class="d-inline-block align-text-centre"> <b>Vasai-Virar Covid Resources</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class=" navbar-nav mb-0 mb-lg-1 nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                    </ul>
+                    
+                    <li class=" navbar-nav mb-0 mb-lg- nav-item">
+                        <a class="nav-link active" aria-current="page" href="/login">Login</a>
+                    </li>
+                    
+                </div>
+            </div>
+        </nav>
+        <div>
+            <marquee class="mb-0 mb-lg-3">
+                <div class="align-text-centre">
+                    <p>••• यह वेब साइट कोविड -19 से लड़ने हेतु सामान्य जनता के लाभ जैसे प्लाज़्मा,ऑक्सिजन, हॉस्पिटल में
+                        बेड,और
+                        दवाइयों की उपलब्धता वसई विरार ज़िला पालघर के लिए बनाई गई है। •••</p>
+                </div>
+                <div>
+                    <p>
+                        ••• This website is made in public interest to fight the COVID-19 pandemic by sharing resources
+                        for
+                        essentials such as Plasma, Hospital beds, and Medicines in the Vasai-Virar area, Dist. Palghar,
+                        Maharashtra, India. •••</p>
+                </div>
+            </marquee>
+        </div>
+        <div class="container-fluid">
+            
+
+
+
+
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header p-3" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>Donor List</b>
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <table class="table text-center" id="MI8">
+                <thead>
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Donor Name</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col">Contact</th>
+                        <th scope="col">Last Negative Report On</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Blood Group</th>
+                        <th scope="col">Registered On</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th scope="col"> <input type="hidden" id="srnoinput-donor"></th>
+                        <th scope="col"> <input type="hidden" id="donornameinput"></th>
+                        <th scope="col"> <input type="hidden" id="genderdonorinput"></th>
+                        <th scope="col"> <input type="hidden" id="contactnodonorinput"></th>
+                        <th scope="col"> <input type="hidden" id="lastnegativeinput"></th>
+                        <th scope="col"> <input type="hidden" id="agedonorinput"></th>
+                        <th scope="col">
+                            <select id="bloodgroupdonorinput" class="form-select search-key-donor">
+                                <option value="" selected>All</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                            </select>
+                        </th>
+                        <th scope="col"> <input type="hidden" id="registeredodonorinput"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+
+
+                        <th scope="row">1</th>
+                        <td data-input="donornameinput">Akash Chavan</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9049190185</td>
+                        <td data-input="lastnegativeinput">2021-05-07</td>
+                        <td data-input="agedonorinput">26</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 11:48 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">2</th>
+                        <td data-input="donornameinput">Vedant Mohite</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9518997372</td>
+                        <td data-input="lastnegativeinput">2021-04-26</td>
+                        <td data-input="agedonorinput">19</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 11:25 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">3</th>
+                        <td data-input="donornameinput">Abhishek Arvind Sankhe</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7738800202</td>
+                        <td data-input="lastnegativeinput">2021-05-07</td>
+                        <td data-input="agedonorinput">35</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 10:55 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">4</th>
+                        <td data-input="donornameinput">Sss</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">8149652343</td>
+                        <td data-input="lastnegativeinput">2021-05-07</td>
+                        <td data-input="agedonorinput">55</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 03:16 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">5</th>
+                        <td data-input="donornameinput">Amit Mishra</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9923980118</td>
+                        <td data-input="lastnegativeinput">2021-04-27</td>
+                        <td data-input="agedonorinput">25</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 02:36 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">6</th>
+                        <td data-input="donornameinput">Mayur Ramesh Dumasia</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8097652987</td>
+                        <td data-input="lastnegativeinput">2021-04-30</td>
+                        <td data-input="agedonorinput">33</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 01:57 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">7</th>
+                        <td data-input="donornameinput">Krishna Yadav</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9765203477</td>
+                        <td data-input="lastnegativeinput">2021-03-27</td>
+                        <td data-input="agedonorinput">26</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-07 01:05 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">8</th>
+                        <td data-input="donornameinput">Srushti Olkar</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">7387164409</td>
+                        <td data-input="lastnegativeinput">2021-05-06</td>
+                        <td data-input="agedonorinput">18</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 11:38 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">9</th>
+                        <td data-input="donornameinput">Shyambahadur Singh</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8010449679</td>
+                        <td data-input="lastnegativeinput">2021-05-06</td>
+                        <td data-input="agedonorinput">55</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 11:13 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">10</th>
+                        <td data-input="donornameinput">Avinash Nambiar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8668539421</td>
+                        <td data-input="lastnegativeinput">2021-04-20</td>
+                        <td data-input="agedonorinput">34</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 09:18 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">11</th>
+                        <td data-input="donornameinput">Rashmi Gaikwad</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9764834781</td>
+                        <td data-input="lastnegativeinput">2021-05-01</td>
+                        <td data-input="agedonorinput">29</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 05:10 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">12</th>
+                        <td data-input="donornameinput">Dr Jagrut Thakur</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9850988875</td>
+                        <td data-input="lastnegativeinput">2021-04-25</td>
+                        <td data-input="agedonorinput">27</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 03:31 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">13</th>
+                        <td data-input="donornameinput">Dhaval Shrimankar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7021872757</td>
+                        <td data-input="lastnegativeinput">2021-04-25</td>
+                        <td data-input="agedonorinput">23</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-06 01:46 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">14</th>
+                        <td data-input="donornameinput">Girish Eknath Mane</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8779525200</td>
+                        <td data-input="lastnegativeinput">2021-04-25</td>
+                        <td data-input="agedonorinput">21</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-05 11:50 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">15</th>
+                        <td data-input="donornameinput">Anish Pujari</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">7972629400</td>
+                        <td data-input="lastnegativeinput">2021-05-05</td>
+                        <td data-input="agedonorinput">42</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-05 02:48 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">16</th>
+                        <td data-input="donornameinput">Yash Rawat</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9373348827</td>
+                        <td data-input="lastnegativeinput">2021-05-05</td>
+                        <td data-input="agedonorinput">21</td>
+                        <td data-input="bloodgroupdonorinput">AB+</td>
+                        <td data-input="registeredodonorinput">2021-05-05 01:16 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">17</th>
+                        <td data-input="donornameinput">Steffnal Dias</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9764550992</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">27</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 12:42 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">18</th>
+                        <td data-input="donornameinput">Rahul Dsilva</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9820178890</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">46</td>
+                        <td data-input="bloodgroupdonorinput">A-</td>
+                        <td data-input="registeredodonorinput">2021-05-04 12:07 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">19</th>
+                        <td data-input="donornameinput">Samantha Santiago</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9819953426</td>
+                        <td data-input="lastnegativeinput">2021-04-30</td>
+                        <td data-input="agedonorinput">35</td>
+                        <td data-input="bloodgroupdonorinput">AB+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 12:01 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">20</th>
+                        <td data-input="donornameinput">Jaywant Ananda Patil</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7799446673</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">41</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 10:48 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">21</th>
+                        <td data-input="donornameinput">Shubham Sah</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9503572932</td>
+                        <td data-input="lastnegativeinput">2021-04-19</td>
+                        <td data-input="agedonorinput">25</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 10:38 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">22</th>
+                        <td data-input="donornameinput">Siddhi Lavande</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9373469135</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">22</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 09:46 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">23</th>
+                        <td data-input="donornameinput">Sanket Parab</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9867806651</td>
+                        <td data-input="lastnegativeinput">2021-03-30</td>
+                        <td data-input="agedonorinput">36</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 09:06 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">24</th>
+                        <td data-input="donornameinput">Ramu Rajnath Jaiswar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8828951933</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">21</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 09:02 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">25</th>
+                        <td data-input="donornameinput">Ranjit Purohit</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9892127027</td>
+                        <td data-input="lastnegativeinput">2021-04-17</td>
+                        <td data-input="agedonorinput">44</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 07:11 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">26</th>
+                        <td data-input="donornameinput">Sonu Sahu</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7692013715</td>
+                        <td data-input="lastnegativeinput">2021-05-04</td>
+                        <td data-input="agedonorinput">23</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 03:25 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">27</th>
+                        <td data-input="donornameinput">Vikram Sawant</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9004004222</td>
+                        <td data-input="lastnegativeinput">2021-04-19</td>
+                        <td data-input="agedonorinput">31</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 03:06 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">28</th>
+                        <td data-input="donornameinput">Shrikant Ghone</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7709594332</td>
+                        <td data-input="lastnegativeinput">2021-02-02</td>
+                        <td data-input="agedonorinput">35</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 02:26 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">29</th>
+                        <td data-input="donornameinput">Nancy Ferrao</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">8669100025</td>
+                        <td data-input="lastnegativeinput">2021-04-07</td>
+                        <td data-input="agedonorinput">41</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-04 01:32 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">30</th>
+                        <td data-input="donornameinput">Jay More</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9503449189</td>
+                        <td data-input="lastnegativeinput">2021-04-16</td>
+                        <td data-input="agedonorinput">26</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 11:54 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">31</th>
+                        <td data-input="donornameinput">Rajani George (Suzan)</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">7798543897</td>
+                        <td data-input="lastnegativeinput">2021-05-02</td>
+                        <td data-input="agedonorinput">40</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 10:56 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">32</th>
+                        <td data-input="donornameinput">Parth Shukla</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7972966519</td>
+                        <td data-input="lastnegativeinput">2021-04-08</td>
+                        <td data-input="agedonorinput">21</td>
+                        <td data-input="bloodgroupdonorinput">AB+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 10:53 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">33</th>
+                        <td data-input="donornameinput">Urvish</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9768212936</td>
+                        <td data-input="lastnegativeinput">2021-05-03</td>
+                        <td data-input="agedonorinput">27</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 10:24 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">34</th>
+                        <td data-input="donornameinput">Samir Krishna Deo</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9920145320</td>
+                        <td data-input="lastnegativeinput">2021-05-03</td>
+                        <td data-input="agedonorinput">37</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 10:14 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">35</th>
+                        <td data-input="donornameinput">Manish Jha</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9028213772</td>
+                        <td data-input="lastnegativeinput">2021-04-30</td>
+                        <td data-input="agedonorinput">32</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 09:45 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">36</th>
+                        <td data-input="donornameinput">Vaibhav Vinayak Kapdekar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9359394735</td>
+                        <td data-input="lastnegativeinput">2021-04-29</td>
+                        <td data-input="agedonorinput">24</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 08:34 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">37</th>
+                        <td data-input="donornameinput">James Rodrigues</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9067297080</td>
+                        <td data-input="lastnegativeinput">2021-05-03</td>
+                        <td data-input="agedonorinput">41</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 08:26 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">38</th>
+                        <td data-input="donornameinput">Ms. Padia Divya Soak Bhakti</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9004393819</td>
+                        <td data-input="lastnegativeinput">2021-02-10</td>
+                        <td data-input="agedonorinput">26</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 07:19 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">39</th>
+                        <td data-input="donornameinput">Rajkumar Gupta</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9987012347</td>
+                        <td data-input="lastnegativeinput">2021-04-25</td>
+                        <td data-input="agedonorinput">36</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 04:32 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">40</th>
+                        <td data-input="donornameinput">Santosh Iyer</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7972272158</td>
+                        <td data-input="lastnegativeinput">2021-04-30</td>
+                        <td data-input="agedonorinput">28</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 03:35 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">41</th>
+                        <td data-input="donornameinput">Albina Ger</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9923184734</td>
+                        <td data-input="lastnegativeinput">2021-04-06</td>
+                        <td data-input="agedonorinput">32</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 02:39 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">42</th>
+                        <td data-input="donornameinput">Yatin Mankar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8976398439</td>
+                        <td data-input="lastnegativeinput">2021-05-02</td>
+                        <td data-input="agedonorinput">31</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 01:46 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">43</th>
+                        <td data-input="donornameinput">Yatin Mankar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9819474797</td>
+                        <td data-input="lastnegativeinput">2021-05-02</td>
+                        <td data-input="agedonorinput">32</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-05-03 01:43 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">44</th>
+                        <td data-input="donornameinput">Lyonel Mascarenhas</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8007754324</td>
+                        <td data-input="lastnegativeinput">2021-04-23</td>
+                        <td data-input="agedonorinput">34</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-02 09:57 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">45</th>
+                        <td data-input="donornameinput">Megha Eknath Ghuge</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9967151873</td>
+                        <td data-input="lastnegativeinput">2021-05-02</td>
+                        <td data-input="agedonorinput">19</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-05-02 05:18 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">46</th>
+                        <td data-input="donornameinput">Hemani Solanki</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9930203889</td>
+                        <td data-input="lastnegativeinput">2021-05-02</td>
+                        <td data-input="agedonorinput">25</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-02 02:50 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">47</th>
+                        <td data-input="donornameinput">Deep Soni</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8087330512</td>
+                        <td data-input="lastnegativeinput">2021-04-29</td>
+                        <td data-input="agedonorinput">27</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-05-02 01:46 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">48</th>
+                        <td data-input="donornameinput">Arman Panjwani</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9730260196</td>
+                        <td data-input="lastnegativeinput">2021-04-01</td>
+                        <td data-input="agedonorinput">23</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-04-30 09:52 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">49</th>
+                        <td data-input="donornameinput">Ilham Khan</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9702022193</td>
+                        <td data-input="lastnegativeinput">2021-04-30</td>
+                        <td data-input="agedonorinput">28</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-04-30 05:16 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">50</th>
+                        <td data-input="donornameinput">Karan Bora</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8637702533</td>
+                        <td data-input="lastnegativeinput">2021-04-17</td>
+                        <td data-input="agedonorinput">21</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-04-29 11:03 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">51</th>
+                        <td data-input="donornameinput">Sailee Patne</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">8828065252</td>
+                        <td data-input="lastnegativeinput">2021-03-31</td>
+                        <td data-input="agedonorinput">29</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-04-29 10:06 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">52</th>
+                        <td data-input="donornameinput">Amardeep Singh</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8283841161</td>
+                        <td data-input="lastnegativeinput">2021-01-07</td>
+                        <td data-input="agedonorinput">24</td>
+                        <td data-input="bloodgroupdonorinput">A-</td>
+                        <td data-input="registeredodonorinput">2021-04-29 02:40 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">53</th>
+                        <td data-input="donornameinput">Pranav Padekar</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8446714429</td>
+                        <td data-input="lastnegativeinput">2021-02-28</td>
+                        <td data-input="agedonorinput">27</td>
+                        <td data-input="bloodgroupdonorinput">B+</td>
+                        <td data-input="registeredodonorinput">2021-04-28 05:15 PM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">54</th>
+                        <td data-input="donornameinput">Sunil</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">9853191673</td>
+                        <td data-input="lastnegativeinput">2021-04-27</td>
+                        <td data-input="agedonorinput">30</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-04-27 09:26 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">55</th>
+                        <td data-input="donornameinput">Alric Mendonsa</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">8446318733</td>
+                        <td data-input="lastnegativeinput">2021-04-27</td>
+                        <td data-input="agedonorinput">22</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-04-27 07:21 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">56</th>
+                        <td data-input="donornameinput">Ajain</td>
+                        <td data-input="genderdonorinput">Male</td>
+                        <td data-input="contactnodonorinput">7017754678</td>
+                        <td data-input="lastnegativeinput">2021-04-27</td>
+                        <td data-input="agedonorinput">26</td>
+                        <td data-input="bloodgroupdonorinput">O+</td>
+                        <td data-input="registeredodonorinput">2021-04-27 06:40 AM</td>
+
+
+
+                    </tr>
+                    
+                    <tr>
+
+
+                        <th scope="row">57</th>
+                        <td data-input="donornameinput">Lisdon Dias</td>
+                        <td data-input="genderdonorinput">Female</td>
+                        <td data-input="contactnodonorinput">9921825528</td>
+                        <td data-input="lastnegativeinput">2021-04-02</td>
+                        <td data-input="agedonorinput">30</td>
+                        <td data-input="bloodgroupdonorinput">A+</td>
+                        <td data-input="registeredodonorinput">2021-04-26 04:49 PM</td>
+
+
+
+                    </tr>
+                    
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+    var $filterableRowsdonor = $('#MI8').find('tr').not(':first').not(':first'),
+        $inputsdonor = $('.search-key-donor');
+
+    $inputsdonor.on('input', function () {
+
+        $filterableRowsdonor.hide().filter(function () {
+            return $(this).find('td').filter(function () {
+                var tdText = $(this).text().toLowerCase(),
+                    inputValue = $('#' + $(this).data('input')).val().toLowerCase();
+
+                return $.trim(tdText).indexOf(inputValue) != -1 && $.trim(tdText).indexOf(inputValue) < 1;
+
+
+                // $.trim(tdText).indexOf(inputValue) != -1;
+
+
+
+
+            }).length == $(this).find('td').length;
+        }).show();
+
+    });
+
+
+
+
+</script>
+
+        </div>
+
+
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid ">
+        <hr class="solid">
+        <div class="text-center fw-light p-5 form-label" style="font-size:0.8em">
+            <div>
+                <b>अस्वीकरण: </b>
+                <p>वेबसाइट और इसको बनाने वाले इसमें अस्पतालों द्वारा उपलब्ध कराई गई जानकारी के लिए किसी भी प्रकार से
+                    ज़िम्मेदार नहीं होंगे।
+                    दवाइयों को बेचना और इसमें लिस्टेड अस्पतालों के साथ हमारा कोई सम्बंध नहीं है।
+                    किसी भी प्रकार के व्यवहार से पहले आप जानकारीयों की पुष्टि कर लें।</p>
+            </div>
+            <div>
+                <b>Disclaimer:</b>
+                <p>The website and its owners do not hold any responsibility with respect to the
+                    information fed by Hospitals and Public. We are not in the business of selling of
+                    Drugs/Medicines or
+                    have any association with the Hospitals listed. We strongly recommend verifying details before
+                    any
+                    transaction.</p>
+            </div>
+
+
+        </div>
+        <div class="text-center p-0 fw-lighter form-label">
+            <p><a href='mailto:celertechindia@gmail.com' style="color:#0d6efd;text-decoration:none"><i
+                        class="fa fa-envelope" style="font-size:24px"></i></a>&emsp; <a
+                    href='https://www.instagram.com/vasaicovidresources/' target="_blank" rel="noopener noreferrer"
+                    style="color:#0d6efd;text-decoration:none">
+                    <i class="fa fa-instagram" style="font-size:24px"></i></a>&emsp;<a
+                    href='https://twitter.com/covidvasai/' target="_blank" rel="noopener noreferrer"
+                    style="color:#0d6efd;text-decoration:none">
+                    <i class="fa fa-twitter" style="font-size:24px"></i></a></p>
+            Created By:
+            <a> Celer Tech</a></br>
+        </div>
+        <div class="p-3"></div>
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+
+</body>
+</head>
+
+</html>

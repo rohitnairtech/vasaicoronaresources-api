@@ -1,0 +1,29 @@
+{
+  "name": "vasaicoronaresources-api",
+  "version": "1.0.0",
+  "description": "API for vasaicoronaresources.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitnairtech/vasaicoronaresources-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "RohitNairTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitnairtech/vasaicoronaresources-api/issues"
+  },
+  "homepage": "https://github.com/rohitnairtech/vasaicoronaresources-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "form-data": "^4.0.0",
+    "phantom": "^6.3.0",
+    "webpage": "^0.3.0"
+  }
+}
