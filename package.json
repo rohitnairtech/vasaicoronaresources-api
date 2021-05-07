@@ -22,8 +22,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "*",
-    "form-data": "^4.0.0",
-    "phantom": "^6.3.0",
     "webpage": "^0.3.0"
   }
 }
